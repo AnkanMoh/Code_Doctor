@@ -6,11 +6,7 @@ from pygments import highlight
 from pygments.lexers import PythonLexer, JavascriptLexer, CppLexer, JavaLexer
 from pygments.formatters import HtmlFormatter
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-
-if not GROQ_API_KEY:
-    st.error("❌ API Key not found. Please set the 'GROQ_API_KEY' environment variable.")
-    st.stop()
+GROQ_API_KEY = "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"
 
 client = Groq(api_key=GROQ_API_KEY)
 
