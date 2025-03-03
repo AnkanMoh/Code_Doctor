@@ -16,3 +16,9 @@ FixGenie is an **AI-powered bug fixer and optimizer** using **Groq's `mixtral-8x
    ```bash
    git clone https://github.com/your-github-username/FixGenie.git
    cd FixGenie
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+3. **Run FixGenie**:
+   ```bash
+   streamlit run app.py
