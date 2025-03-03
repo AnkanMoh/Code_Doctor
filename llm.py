@@ -51,8 +51,8 @@ def grade_code(code_snippet, language):
 
 st.set_page_config(page_title="🚀 AI Code Fixer & Optimizer", page_icon="🐞", layout="wide")
 
-st.title("CodeDoctor")
-st.subheader("he AI that diagnoses and heals your buggy code!")
+st.title("Dr.Code")
+st.subheader("The AI that diagnoses and heals your buggy code!")
 
 language = st.selectbox("🛠️ Select Programming Language", ["Python", "JavaScript", "C++", "Java"])
 user_code = st.text_area("🔽 Paste your code below:", height=250)
